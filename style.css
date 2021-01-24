@@ -1,0 +1,627 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 50px;
+}
+
+
+
+/**css mta3 navbar yebda hna**/
+
+.nav-logo{
+    width: 300px;
+    height: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+   z-index: 1;
+   align-items: center;
+   height: 60px;
+   top: 0;
+   background-color: white;
+   width: 100%;
+   box-shadow: 0 -2px 10px 0 rgba(0,0,0,.15);
+   transition: box-shadow .2s ease 0s; /** rit'ha fi inspecter thabet fiha**/
+  
+}
+
+.nav-menu>ul>li{
+    list-style-type: none;
+    margin: 0 7px;
+
+}
+.nav-menu>ul>li>a{
+    text-decoration: none;
+    color: #ababab;
+}
+
+
+.nav-menu>ul>li>a:hover{
+    text-decoration: none;
+    
+    color: #00b39b;
+    
+}
+
+
+.nav-menu {
+   
+        position: relative;
+        display: inline-block;
+      
+}
+#active{
+    color:#00bfa5;
+}
+.nav-menu>ul {
+    display: flex;
+    color: #00b39b;
+}
+
+/*.drop-down-content{
+    list-style-type: none;
+    
+    padding-top: 10px;
+    position: absolute;
+    min-width: 220px;
+    margin-left: -100px;
+    background: #fff;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+    z-index: 1;
+    
+}*/
+
+.drop-down-content>ul{
+    list-style-type: none;
+    
+}
+.drop-down-content>ul {
+   
+    display: none;
+    padding-top: 10px;
+    position: absolute;
+    min-width: 220px;
+    margin-left: -40px;
+    background: #fff;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+    z-index: 1;
+    /*cursor: pointer;*/
+
+
+}
+.drop-down-content>ul>li>a{
+    text-decoration: none;
+    color: #00b39b;
+    line-height: 100%;
+    padding: 12px 16px!important;
+    display: block;
+   
+  
+}
+
+.drop-down-content>ul>li>:hover{
+    text-decoration: none;
+    background-color: rgb(245, 245, 245);
+    
+  
+}
+
+.drop-down-content>ul>li {
+    margin-top: 10px;
+}
+.nav-menu>ul>li:hover .drop-down-content>ul{
+    display:block;
+    
+}
+/*youfa hna*/
+
+
+
+/* discription-section tebda hna  */
+.discription-section{
+    margin-top: 80px;
+}
+.discription-section>img{
+    position: relative;
+    left: 50%;
+    width:40px;
+    height : auto;
+    margin-bottom: 50px;;
+
+}
+.discription-section>p {
+    text-align: center;
+    color: #00bfa5;
+    font-size: 2em;
+    margin-bottom: 50px;
+
+}
+.discription-section-flex {
+    margin: 0 150px;
+    display: flex;
+    
+    /*display: block;*/
+}
+
+.col-2 {
+    
+    width: 100%;
+    
+    box-sizing: inherit;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #747474;
+    line-height: 170%;
+    padding-bottom: 70px;*/
+    
+    /*float: left;
+    min-height: 1px;
+    padding: 10px;*/
+
+}
+
+
+
+
+.kdiscription-section-flex>div{
+    display: flex;
+    margin-left: 10px;  
+    color: #ababab; 
+}
+
+
+
+/* buisness-section  */
+
+.buisness-section{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+/*.buisness-section>.for-patients {
+    background-color:#00ccb1;
+    width: 500px;
+    height: 430px;
+    overflow: hidden;
+    margin: 0 5px;
+    border-radius: 7px;
+    margin-top: 80px;
+}
+.buisness-section>.for-patients>p,.buisness-section>.for-doctors>p {
+    margin: 25px 50px 10px 50px;
+    color: white;
+
+}
+.buisness-section>.for-patients>.title-buisness-section{
+    font-size: 0.8em;
+    color: #c5daf5;
+}
+.buisness-section>.for-patients>.text-buisness-section{
+    font-size: 1.5em;
+}
+.buisness-section>.for-doctors {
+    background-color: #3d83df;
+    width: 500px;
+    height: 430px;
+    overflow: hidden;
+    margin: 0 5px;
+    border-radius: 7px;
+    margin-top: 80px;
+
+
+}
+.buisness-section>.for-patients>select{
+    padding: 12px 25px;
+    margin: 15px 50px 0 50px;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    border-radius: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.buisness-section>.for-doctors>.title-buisness-section{
+    font-size: 0.8em;
+    color: #c5daf5;
+}
+.buisness-section>.for-doctors>.text-buisness-section{
+    font-size: 1.5em;
+}
+.buisness-section>.for-doctors>img{
+    margin-top:60px;
+   
+}
+.buisness-section>.for-patients>img,.buisness-section>.for-doctors>img{
+    width: 400px;
+    height: 250px;
+    margin-left: 200px;
+
+}*/
+
+
+.buisness-section>.for-patients {
+    background-color:#00b39b;
+    width: 280px;
+    height: 350px;
+    overflow: hidden;
+    /*margin: 0 5px;*/
+    border-radius: 7px;
+    margin: 0px 60px 0px 150px;
+}
+.buisness-section>.for-patients>p,.buisness-section>.for-doctors>p {
+    margin: 25px 50px 10px 50px;
+    color: white;
+
+}
+.buisness-section>.for-patients>.title-buisness-section{
+    font-size: 1.8em;
+    color: #c5daf5;
+}
+.buisness-section>.for-patients>.text-buisness-section{
+    font-size: 1.5em;
+}
+
+
+
+
+.buisness-section>.for-doctors {
+    background-color:#3d83df;
+    width: 280px;
+    height: 350px;
+    
+    border-radius: 7px;
+    margin-top: 80px;
+    margin: 0px 100px 0px 0px;
+}
+
+buisness-section>.for-doctors>p,.buisness-section>.for-doctors>p {
+    margin: 25px 50px 10px 50px;
+    color: white;
+
+}
+.buisness-section>.for-doctors>.title-buisness-section{
+    font-size: 1.8em;
+    color: #c5daf5;
+}
+.buisness-section>.for-doctors>.text-buisness-section{
+    font-size: 1.5em;
+}
+
+
+
+.buisness-section>.for-clinics {
+    background-color:#162841;
+    width: 280px;
+    height: 350px;
+    overflow: hidden;
+    margin: 0 5px;
+    border-radius: 7px;
+    margin-top: 80px;
+    margin: 0px 180px 0px -40px;
+}
+
+buisness-section>.for-clinics>p,.buisness-section>.for-clinics>p {
+    margin: 25px 50px 10px 50px;
+    color: white;
+
+}
+.buisness-section>.for-clinics>.title-buisness-section{
+    font-size: 1.8em;
+    color: #e8eaec;
+}
+.buisness-section>.for-clinics>.text-buisness-section{
+    font-size: 1.5em;
+    color: #e8eaec;
+}
+
+
+
+
+
+
+
+
+
+/*buisness-section>.for-clinics {
+    background-color:#40668f;
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+    margin: 0 5px;
+    border-radius: 7px;
+    margin-top: 80px;
+}
+
+buisness-section>.for-clinics>p,.buisness-section>.for-clinics>p {
+    margin: 25px 50px 10px 50px;
+    color: white;
+
+}
+.buisness-section>.for-clinics>.title-buisness-section{
+    font-size: 1.8em;
+    color: #c5daf5;
+}
+.buisness-section>.for-clinics>.text-buisness-section{
+    font-size: 1.5em;
+}*/
+
+
+
+
+.formcontrol{
+    margin: 30px 0px 0px 60px;
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0 2em 0 0;
+    -webkit-appearance: none;
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    font-size: 1.2em;
+    color: #e8eaec;
+    
+}
+
+
+
+.
+
+
+
+
+
+
+/* partenaire-section  */
+.partenaire-section{
+    display:flex;
+   margin-left: 80px;
+    justify-content: space-around;
+    /*align-content: center;
+    /**align-items: center;**/
+}
+.partenaire-section-icons{
+    display:flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: inherit;
+    margin-left: 400px;
+    margin-top: -140px;
+    margin-bottom: 30px;
+}
+.partenaire-section-icons>div>a>svg{
+    font-size: 1.5em;
+    fill: #747474;
+    width: 125px;
+    height: auto;
+    margin-left: 30px;
+   margin-bottom: 20px;
+  
+}
+.partenaire-section-icons>div>a>svg:hover {
+    fill: #00bfa5;
+}
+.partenaire-section-parag{
+    min-width: 400px;
+    margin-left: 140px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    line-height: 1.7;
+    font-size: 1.5em;
+    color: #00b39b;
+}
+
+
+
+.logowet {
+    
+    display: flex;
+    align-items: center;
+    margin-left: 0px 0px 0px 0px;
+     
+   
+}
+
+.clinicloud {
+    
+    margin-left: 25px;
+}
+.gipo {
+    
+    margin-left: 25px;
+}
+.tuotumpo {
+    
+    margin-left: 25px;
+}
+
+
+
+.aboutus-section {
+  
+  background-color: #d6f6f6;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.aboutus-section-text-title{
+    color: #00b39b;
+    font-size: 1.7em;
+    margin: 100px 0 0 200px;
+
+}
+.aboutus-section-text-parag{
+    color: #747474;
+    font-size: 0.8em;
+    margin: 50px 0 0 200px;
+    width: 400px;
+}
+.text-area{
+  
+    overflow: hidden;
+    position: relative;
+    height: 600px;
+    padding: 0 50px
+   
+    
+ 
+}
+
+
+.text-area>img{
+position: absolute;
+height: 400px;
+width: auto;
+left: 10%;
+top:  50%
+
+  
+}
+
+.first2-cards,.second2-cards{
+    display: flex
+}
+.first2-cards>#move-down,.second2-cards>#move-down{
+    margin-top: 35px;
+}
+.first2-cards>.cards,.second2-cards>.cards{
+    width:220px;
+    height: 240px;
+    background-color: white;
+    margin: 20px 20px 0 0    ;
+    border-radius: 5px
+}
+.first2-cards>.cards>img,.second2-cards>.cards>img{
+    position: relative;
+    left: 42%;
+    margin-top: 30px;
+    width:35px;
+    height : auto;
+    margin-bottom:20px;
+
+}
+.card-title{
+    color: #00b39b;
+    font-size: 1.4em;
+    text-align: center;
+    margin-bottom: 10px;;
+
+
+}
+.card-parag{
+    color: #747474;
+    font-size: 0.8em;
+    text-align: justify;
+    text-align: center;
+    line-height: 1.4
+    
+}
+
+.whatwedid-section{
+    display: flex   ;
+    align-items: center;
+    justify-content: center
+}
+ .whatwedid-section-title{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 1.8em;
+    color: #00b39b
+
+}
+.whatwedid-section-parag{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #747474;
+    width: 400px;
+    line-height: 1.7;
+} 
+
+
+
+
+.city-sections{
+    display: grid;
+    grid-template-columns: 320px 320px 320px ;
+    grid-gap: 10px;
+justify-content: center;
+    padding: 10px;
+    
+}
+.city-sections-cards{
+    border-radius: 10px;
+    overflow: hidden;
+   width: 278px;
+    height: 335px;
+}
+.city-sections-cards>img{
+    border-radius: 10px;
+}
+.city-sections-cards:hover{
+    box-shadow: 6px 10px 38px -2px rgba(138,126,138,1);
+}
+.city-sections-cards>div{
+    display: flex;
+    justify-content: space-around  ;
+}
+.city-sections-cards>div>p{
+    font-size: 0.8em;
+    color: #747474;
+    margin-top: 15px;
+}
+.city-sections-cards>div>p>a{
+    color: white;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #3d83df;
+    border-radius: 5px;
+}
+footer{
+    margin-top: 50px;
+    border-top:1px solid #ababab;
+}
+footer>p {
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 20px;
+}
+footer>p>a{
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
